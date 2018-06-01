@@ -9,6 +9,7 @@ import org.junit.Before;
 import org.junit.Test;
 
 import com.sow.java.model.Account;
+import com.sow.java.service.AccountService;
 
 import junit.framework.Assert;
 
@@ -48,7 +49,7 @@ public class AccountServiceTest {
 	
 	@Test
 	public void testGetUsers() {
-		Assert.assertEquals(7, accountService.getAccounts().stream().count());
+		Assert.assertEquals(12, accountService.getAccounts().stream().count());
 	}
 
 	@Test

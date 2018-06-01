@@ -26,6 +26,19 @@ public class AccountDB {
 		//For Get All accounts by user
 		accounts.add(new Account(6L, 200, LocalDate.of(2015, 05, 15), new ArrayList<Double>()));
 		accounts.add(new Account(7L, 100, LocalDate.of(2017, 07, 17), new ArrayList<Double>()));
+		
+		//AccountManagerService
+		//accountWithdraw
+		accounts.add(new Account(10L, 200, LocalDate.of(2015, 05, 15), new ArrayList<Double>()));
+		
+		//accountDeposit
+		accounts.add(new Account(11L, 100, LocalDate.of(2017, 07, 17), new ArrayList<Double>()));
+		
+		//For Get All accounts by user
+		accounts.add(new Account(12L, 200, LocalDate.of(2015, 05, 15), new ArrayList<Double>()));
+		accounts.add(new Account(13L, 100, LocalDate.of(2017, 07, 17), new ArrayList<Double>()));
+		accounts.add(new Account(14L, 300, LocalDate.of(2017, 07, 17), new ArrayList<Double>()));
+				
 	}
 	
 	public AccountDB() {

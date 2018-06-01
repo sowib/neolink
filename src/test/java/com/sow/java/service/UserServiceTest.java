@@ -5,6 +5,7 @@ import org.junit.Before;
 import org.junit.Test;
 
 import com.sow.java.model.User;
+import com.sow.java.service.UserService;
 
 import junit.framework.Assert;
 
@@ -45,7 +46,7 @@ public class UserServiceTest {
 	
 	@Test
 	public void testGetUsers() {
-		Assert.assertEquals(4, userService.getUsers().stream().count());
+		Assert.assertEquals(5, userService.getUsers().stream().count());
 	}
 
 }

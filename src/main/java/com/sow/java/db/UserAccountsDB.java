@@ -19,6 +19,8 @@ public class UserAccountsDB {
 		//For Get All accounts by user
 		userAccounts.put(4L, new ArrayList<Long>(Arrays.asList(6L, 7L)));
 		
+		//AccountManagerService
+		userAccounts.put(5L, new ArrayList<Long>(Arrays.asList(12L, 13L, 14L)));
 	}
 	
 	public UserAccountsDB() {
